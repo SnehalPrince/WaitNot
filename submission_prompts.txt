@@ -1,0 +1,41 @@
+# HackerRank Orchestrate: Buy or Wait?
+## AI Orchestration & Prompting Log
+
+This document records the strategic prompts used to architect, implement, and refine the WaitNot financial agent. The prompts demonstrate a structured, test-driven approach to interacting with the AI agent.
+
+### Phase 1: Architecture & Constraint Definition
+**Prompt:**
+(Provided a comprehensive SPEC.md detailing the exact algorithmic constraints, file layout, deterministic fallback requirements, and prompt-injection defense mechanisms, alongside strict instructions to read all project documentation before execution.)
+
+**Outcome:** 
+The AI successfully ingested the project constraints, initialized the mandatory log.txt tracking, and adopted the WaitNot project branding.
+
+### Phase 2: Environment Initialization
+**Prompt:**
+Clone it https://github.com/interviewstreet/hackerrank-orchestrate-september26.git
+
+**Outcome:**
+The repository was successfully cloned and verified against the initial specification.
+
+### Phase 3: Execution & Implementation
+**Prompt:**
+Proceed
+
+**Outcome:**
+The AI resolved the open decisions (opting for a zero-cost deterministic pure-Python pipeline), extracted necessary dataset anomalies (blank image events), and implemented the full 5-stage pipeline (loaders.py, events.py, evidence.py, orecast.py, planner.py, explain.py, alidate.py).
+
+### Phase 4: Refinement & Documentation
+**Prompt:**
+Refine Readme. For Full Explanation on how to run and how we are using it, how it works
+
+**Outcome:**
+The AI generated a comprehensive, professional README.md detailing the 100% deterministic architecture, the 90-day cash flow ledger rules, and the prompt-injection defense via regex parsing.
+
+### Phase 5: Verification & Dataset Confirmation
+**Prompt:**
+is that it, over?
+did u run it against requests.csv
+
+**Outcome:**
+Confirmed that the pipeline was executed against the primary 250-row evaluation dataset (equests.csv) and successfully output a fully validated output.csv. Sample data was correctly isolated for self-evaluation only.
+
